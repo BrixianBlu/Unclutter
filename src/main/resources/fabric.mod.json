@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "unclutter",
+	"version": "${version}",
+	"name": "unclutter",
+	"description": "Basically a way so people don't have to be overcluttered by resource items!",
+	"authors": [
+		"Brixian"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/unclutter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.blu.unclutter.Unclutter"
+		],
+		"fabric-datagen": [
+			"net.blu.unclutter.UnclutterDataGenerator"
+		]
+	},
+	"mixins": [
+		"unclutter.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
