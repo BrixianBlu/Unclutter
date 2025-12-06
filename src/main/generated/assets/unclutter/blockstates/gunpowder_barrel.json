@@ -1,27 +1,27 @@
 {
   "variants": {
-    "facing=down,open=false": {
+    "facing=down": {
       "model": "unclutter:block/gunpowder_barrel",
       "x": 180
     },
-    "facing=east,open=false": {
+    "facing=east": {
       "model": "minecraft:block/barrel",
       "x": 90,
       "y": 90
     },
-    "facing=north,open=false": {
+    "facing=north": {
       "model": "minecraft:block/barrel",
       "x": 90
     },
-    "facing=south,open=false": {
+    "facing=south": {
       "model": "minecraft:block/barrel",
       "x": 90,
       "y": 180
     },
-    "facing=up,open=false": {
+    "facing=up": {
       "model": "minecraft:block/barrel"
     },
-    "facing=west,open=false": {
+    "facing=west": {
       "model": "minecraft:block/barrel",
       "x": 90,
       "y": 270
