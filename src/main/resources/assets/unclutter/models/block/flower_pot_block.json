@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "unclutter:block/flower_pot_block_bottom",
+    "side": "unclutter:block/flower_pot_block_side",
+    "top": "unclutter:block/flower_pot_block_top"
+  }
+}
