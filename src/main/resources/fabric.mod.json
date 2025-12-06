@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/BrixianBlu/Unclutter"
 	},
 	"license": "MIT",
 	"icon": "assets/unclutter/icon.png",
@@ -20,6 +20,10 @@
 		],
 		"fabric-datagen": [
 			"net.blu.unclutter.UnclutterDataGenerator"
+
+		],
+		"client": [
+			"net.blu.unclutter.UnclutterClient"
 		]
 	},
 	"mixins": [
